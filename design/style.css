@@ -8,6 +8,7 @@
 body {
     background: var(--primary-color);
     color: #fcfefe;
+    height: 100%;
 }
 
 .hero-section {
@@ -30,9 +31,10 @@ body {
 .btn-branding {
     background: var(--secondary-color);
     color: #fcfefe;
-    border: none;
+    border: 1px solid #fcfefe;
     padding: 10px 20px;
-    text-decoration: none;
+    border: 5px;
+    text-align: center;
     font-size: 16px;
     border-radius: 4px;
     line-height: 30px;
@@ -62,8 +64,9 @@ body {
     font-style: italic;
     color: var(--secondary-color);
 }
-.container {
-    max-width: 900px;
+.about-section-container {
+    background-color: var(--tertiary-color);
+    color: #fcfefe;
 
 }
 .services-offered {
@@ -79,8 +82,36 @@ h5 {
     font-weight: bold;
     color: #fad3cf;
 }
-.about-section body {
+.about {
     background: var(--tertiary-color);
     color: #fcfefe;
 }
+.about-section h1 {
+    font-family: var(--default-font-family);
+    font-style: italic;
+}
+.about-section h2 {
+    font-family: var(--heading-font-family);
+}
+.about-section p {
+    font-size: 18px;
+    font-family: var(--heading-font-family);
 
+}
+.about-section {
+    padding: 160px 20px;
+
+}
+
+.about-section content {
+    margin: 30px;
+}
+.btn-branding-outline {
+    color: #fcfefe !important;
+    border: 1px solid var(--secondary-color) !important;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  
