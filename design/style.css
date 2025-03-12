@@ -79,3 +79,8 @@ h5 {
     font-weight: bold;
     color: #fad3cf;
 }
+.about-section body {
+    background: var(--tertiary-color);
+    color: #fcfefe;
+}
+
