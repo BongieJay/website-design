@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #cbbcf6;
+    --secondary-color: #421b9b;
+    --tertiary-color: #cca8e9;
+    --heading-font-family: "DM Serif Text", serif;
+    --default-font-family: "Playfair Display", serif;
+}
+
+.hero-section {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsWCwdaTwFcp5ym0Cu9Bz4ugq08DZJKipSu4DOXpK5X-7zXhZJzpVBZERp2z972RjmWSg&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    color: #fcfefe;
+    height: 400px;
+    padding: 20px;
+}
+.btn-branding {
+    background: var(--secondary-color);
+    color: #fcfefe;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 900px;
+
+}
