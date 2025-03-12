@@ -5,6 +5,10 @@
     --heading-font-family: "DM Serif Text", serif;
     --default-font-family: "Playfair Display", serif;
 }
+body {
+    background: var(--primary-color);
+    color: #fcfefe;
+}
 
 .hero-section {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsWCwdaTwFcp5ym0Cu9Bz4ugq08DZJKipSu4DOXpK5X-7zXhZJzpVBZERp2z972RjmWSg&usqp=CAU);
@@ -14,6 +18,15 @@
     height: 400px;
     padding: 20px;
 }
+.hero-section h1 {
+    font-weight: bold;
+    
+}
+.hero-section h3 {
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    font-style: italic;
+}
 .btn-branding {
     background: var(--secondary-color);
     color: #fcfefe;
@@ -21,9 +34,48 @@
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;
+    border-radius: 4px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.content-section {
+    padding: 60px 20px;
 }
 
+.image-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image-text img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+
+}
+.image-text .text-box {
+    max-width: 500px;
+}
+.welcome-statement {
+    font-family: var(--default-font-family);
+    font-style: italic;
+    color: var(--secondary-color);
+}
 .container {
     max-width: 900px;
 
+}
+.services-offered {
+    font-family: var(--default-font-family);
+    font-style: italic;
+    color: var(--secondary-color);
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+h5 {
+    font-family: var(--default-font-family);
+    font-style: italic;
+    font-weight: bold;
+    color: #fad3cf;
 }
