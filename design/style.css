@@ -114,7 +114,10 @@ h5 {
     line-height: 27px;
     padding: 15px 30px;
   }
-  .recent h1 {
+.our-recent-work{
+    background: var(--tertiary-color);
+}
+  .recent-container h1 {
     font-family: var(--default-font-family);
     font-style: italic;
     color: var(--secondary-color);
@@ -122,11 +125,17 @@ h5 {
     font-size: 36px;
 
 }
-.recent h3 {
+.recent-container h3 {
     font-family: var(--heading-font-family);
     font-style: bold;
-    color: var(--secondary-color);
-    text-align: center;
+    color: #fad3cf;
     font-size: 24px;
-    
+    text-align: start !important;
+    padding-bottom: 4px;
+}
+.resized-image {
+    width: 60%;
+}
+.cropped-images {
+    width: 30%;
 }
