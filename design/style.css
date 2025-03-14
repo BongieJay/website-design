@@ -11,6 +11,24 @@ body {
     height: 100%;
 }
 
+.logo {
+    max-height: 160px;
+}
+.active {
+    color: var(--secondary-color) !important;
+
+}
+.nav-item {
+    font-family: var(--default-font-family);
+    font-style: italic;;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navbar {
+    background: var(--primary-color);
+    padding: 20px;
+}
 .hero-section {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsWCwdaTwFcp5ym0Cu9Bz4ugq08DZJKipSu4DOXpK5X-7zXhZJzpVBZERp2z972RjmWSg&usqp=CAU);
     background-size: cover;
@@ -120,9 +138,9 @@ h5 {
   .recent-container h1 {
     font-family: var(--default-font-family);
     font-style: italic;
-    color: var(--secondary-color);
     text-align: center;
     font-size: 36px;
+    color: var(--tertiary-color);
 
 }
 .recent-container h3 {
@@ -131,7 +149,14 @@ h5 {
     color: #fad3cf;
     font-size: 24px;
     text-align: start !important;
-    padding-bottom: 4px;
+    padding-top: 3px;
+}
+.handles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #fcfefe;
+    background: var(--tertiary-color);
 }
 .resized-image {
     width: 60%;
@@ -144,13 +169,7 @@ h5 {
     font-style: italic;
     color: var(--secondary-color);
 }
-.socials {
-    color: var(--secondary-color);
-    text-align: left;
-    font-family: var(--heading-font-family);
-    font-style: italic;
-    font-weight: bold;
-}
+
 .recent-work a {
     text-decoration: none;
     color: var(--secondary-color);
