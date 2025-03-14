@@ -37,6 +37,45 @@ body {
     height: 400px;
     padding: 20px;
 }
+footer {
+    margin: 60px 0;
+}
+footer .contact-box {
+    background-color: #fad3cf;
+    padding: 30px ;
+    border-radius: 10px;
+    
+}
+footer .contact-box p {
+    margin: 0;
+}
+footer .email-link {
+    text-decoration: none;
+    color: #fcfefe;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+footer .email-link:hover {
+    color: var(--secondary-color);
+}
+footer .social-links a {
+    color: var(--secondary-color);
+    background:  #fad3cf;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50px;
+    margin: 0 20px;
+    transition: all ease-in-out;    
+}
+footer .social-links a:hover {
+    color: #fcfefe;
+    background: var(--secondary-color);
+}
+.contact-box h4 {
+    font-family: var(--default-font-family);
+    font-style: italic;
+
+}
 .hero-section h1 {
     font-weight: bold;
     
@@ -173,4 +212,20 @@ h5 {
 .recent-work a {
     text-decoration: none;
     color: var(--secondary-color);
+}
+@media (max-width:900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 56px;
+      }
+    
+      h2 {
+        font-size: 44px;
+      }
+    h5 {
+        font-size: 30px;
+    } 
+      .hero {
+        padding: 80px 20px;
+      }
 }
